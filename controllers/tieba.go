@@ -9,6 +9,7 @@ import (
 	"os"
 )
 
+
 type TieBaController struct {
 	beego.Controller
 }
@@ -42,6 +43,7 @@ func HttpGet(url string) (result string,err error) {
 	}
 	return
 }
+
 /**
 https://tieba.baidu.com/f?kw=%E7%BB%9D%E5%9C%B0%E6%B1%82%E7%94%9F&ie=utf-8&pn=50
  */
