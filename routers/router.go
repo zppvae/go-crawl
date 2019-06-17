@@ -10,4 +10,5 @@ func init() {
     beego.Router("/movie", &controllers.CrawlMovieController{}, "*:CrawlMovie")
 	beego.Router("/tieba", &controllers.TieBaController{}, "*:TieBa")
 	beego.Router("/douban", &controllers.DouBanController{}, "*:DouBan")
+	beego.Router("/douyu", &controllers.DouYuController{}, "*:DouYu")
 }
